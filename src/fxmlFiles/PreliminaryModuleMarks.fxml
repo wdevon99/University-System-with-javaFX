@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #ffec19;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFiles.PrelimininaryModuleMarksController">
+   <children>
+      <VBox layoutX="97.0" layoutY="157.0" prefHeight="189.0" prefWidth="187.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SC 411      Introduction to Computer Science">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SC 412      Introduction to theory of computation">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SC 414      Introduction to Computer Architecture">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SC 415      Programming and electronics laboratories">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SC 416      Seminar">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SC 417      Data structures and Algorithms">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SC 418      Programming techniques" wrappingWidth="340.052734375">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+      <VBox layoutX="438.0" layoutY="167.0" prefHeight="133.0" prefWidth="62.0" spacing="2.0">
+         <children>
+            <TextField prefHeight="25.0" prefWidth="34.0" />
+            <TextField prefHeight="25.0" prefWidth="88.0" />
+            <TextField prefHeight="25.0" prefWidth="80.0" />
+            <TextField prefHeight="25.0" prefWidth="88.0" />
+            <TextField prefHeight="25.0" prefWidth="88.0" />
+            <TextField prefHeight="25.0" prefWidth="88.0" />
+            <TextField prefHeight="25.0" prefWidth="88.0" />
+         </children>
+      </VBox>
+      <AnchorPane prefHeight="99.0" prefWidth="708.0" style="-fx-background-color: black;">
+         <children>
+            <MenuBar prefHeight="25.0" prefWidth="708.0">
+               <menus>
+                  <Menu mnemonicParsing="false" text="File">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Close" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Edit">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Delete" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Help">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                     </items>
+                  </Menu>
+               </menus>
+            </MenuBar>
+            <Label fx:id="lblGreeting" layoutY="28.0" prefHeight="49.0" prefWidth="693.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Text fill="WHITE" layoutX="97.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Prelimininary Module Marks" textAlignment="CENTER" wrappingWidth="498.546875">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Text>
+            <Text fill="#ffec19" layoutX="29.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GU" wrappingWidth="69.4765625">
+               <font>
+                  <Font name="System Bold" size="45.0" />
+               </font>
+            </Text>
+            <Button layoutX="559.0" layoutY="52.0" mnemonicParsing="false" onAction="#goHome" prefHeight="25.0" prefWidth="59.0" style="-fx-background-color: #ffec19;" text="Home">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="627.0" layoutY="52.0" mnemonicParsing="false" onAction="#logOut" style="-fx-background-color: #ffec19;" text="Log Out">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button layoutX="279.0" layoutY="459.0" mnemonicParsing="false" onAction="#goBack" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: black;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="364.0" layoutY="459.0" mnemonicParsing="false" onAction="#goNext" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: black;" text="Next" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

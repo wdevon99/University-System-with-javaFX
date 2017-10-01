@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="wellcomeScreenAp" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFiles.WelcomeScreenController">
+   <children>
+      <Button layoutX="203.0" layoutY="193.0" mnemonicParsing="false" onAction="#goToEnterStudentDetailsPage" prefHeight="57.0" prefWidth="302.0" style="-fx-background-color: #ffec19;" text="Calculate Student Degree Title">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="203.0" layoutY="405.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="302.0" style="-fx-background-color: #ffec19;" text="view signature programs in MSc in Computer Sciences">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="203.0" layoutY="333.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="302.0" style="-fx-background-color: #ffec19;" text="View Program summary">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="203.0" layoutY="263.0" mnemonicParsing="false" onAction="#goToReport1Page" prefHeight="57.0" prefWidth="302.0" style="-fx-background-color: #ffec19;" text="View Final Report">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <AnchorPane prefHeight="125.0" prefWidth="708.0" style="-fx-background-color: black;">
+         <children>
+            <MenuBar prefHeight="25.0" prefWidth="708.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <Text fill="WHITE" layoutX="91.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To Gugsi University Grade Processor" textAlignment="CENTER" wrappingWidth="526.546875">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Text>
+            <Text fill="#ffec19" layoutX="14.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GU" wrappingWidth="69.4765625">
+               <font>
+                  <Font name="System Bold" size="45.0" />
+               </font>
+            </Text>
+            <Button layoutX="624.0" layoutY="59.0" mnemonicParsing="false" onAction="#logOut" style="-fx-background-color: #ffec19;" text="Log Out" AnchorPane.bottomAnchor="58.0" AnchorPane.leftAnchor="624.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="59.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Text layoutX="259.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select an option">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

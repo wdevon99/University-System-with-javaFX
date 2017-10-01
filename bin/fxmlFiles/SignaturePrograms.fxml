@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea editable="false" layoutX="7.0" layoutY="140.0" prefHeight="391.0" prefWidth="700.0" text="1.0 Masters Degree with Coursework&#10;&#10;The M.Sc. degree (Coursework) can be obtained by completing coursework only (without conducting any research project).&#10;Coursework, comprising of theory modules, and laboratory and/or fieldwork, shall be conducted over a period of two semesters&#10; of 15 weeks each. The total duration of the degree, including examinations, shall be about 12 months. Satisfactory completion of&#10; a minimum of 30 credits of coursework with a GPA of not less than 3.00 is required for the successful completion of the degree&#10; (The student who does not satisfy the above criteria but obtains a GPA in the range 2.75 to 2.99 for coursework of 25 credits is &#10;eligible for the Postgraduate Diploma in Computer Science).&#10;&#10;1.1 Masters Degree with Research&#10;&#10;In addition to Masters Degree with coursework (1.0), the Masters Degree (Research) requires a research project. The duration of&#10; the entire programme will be 24 months inclusive of 1.0. Completion of all the requirements of 1.0 with a GPA of not less than &#10;3.00 is a prerequisite for the Masters Degree (Research). The research project for this degree should be conducted on full-time &#10;basis, and completed during the second year. The research component is allocated 30 credits, totalling 60 credits for the entire&#10; programme. After successful completion of the research project, the student shall be eligible for the award of the M.Sc. Degree&#10; in Computer Science (The student who does not complete the research project shall be awarded the M.Sc. Degree in coursework &#10;in Computer Science).&#10;&#10;1.2 Masters Degree with Coursework and Research&#10;&#10;In addition to Masters Degree with coursework (1.0), the Masters Degree (Coursework and Research) requires a Industry&#10; orientedproject. The duration of the entire programme will be 18 months inclusive of 1.0. Completion of all the requirements&#10; of 1.0 with a GPA of not less than 3.00 is a prerequisite for the Masters Degree (Coursework and Research). The project for&#10; this degree should be conducted on full-time/ part-time  basis, and completed during the 3rd semester (6 months). The&#10; research component is allocated 15 credits, totalling 45 credits for the entire programme. After successful completion of &#10;the research project, the student shall be eligible for the award of the M.Sc. Degree in Computer Science by Coursework &#10;and Research (The student who does not complete the research project shall be awarded the M.Sc. Degree in coursework &#10;in Computer Science).&#10;">
+         <font>
+            <Font name="Microsoft New Tai Lue" size="11.0" />
+         </font>
+      </TextArea>
+      <AnchorPane prefHeight="102.0" prefWidth="711.0">
+         <children>
+            <Button layoutX="6.0" layoutY="2.0" mnemonicParsing="false" text="Home" />
+            <Text layoutX="172.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3 tiltles of  MSc in Computer Sciences" wrappingWidth="304.36328125" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
